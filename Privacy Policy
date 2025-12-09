@@ -1,0 +1,143 @@
+⛽ Fuel Tracker – Privacy Policy
+
+Last updated: {{today’s date}}
+
+1. Introduction
+
+Fuel Tracker (“the App”) allows users to record fuel usage, log meter readings, track tanks and machines, and monitor total consumption.
+
+This Privacy Policy explains how we collect, use, and protect your information. By using the App, you agree to this policy.
+
+2. Information We Collect
+2.1 Account Information
+
+If the App uses accounts, we may collect:
+
+Email address
+
+Password (securely stored by authentication provider such as Firebase, never visible to us)
+
+If the App does not use accounts, you may skip this section.
+
+2.2 Fuel Logging Data
+
+We store data you manually enter, including:
+
+Tank names and meter readings
+
+Machine names
+
+Fuel volumes added or removed
+
+Total and reset counters
+
+Timestamp of each fill or usage
+
+This information is stored only to provide the App’s core functionality.
+
+2.3 Device Information
+
+The following non-personal information may be collected automatically:
+
+Device model
+
+Operating system
+
+App version
+
+Crash logs and performance data
+
+This data helps improve app reliability.
+
+2.4 Location Data (If enabled)
+
+If you choose to attach a location to a fuel entry, the App may collect:
+
+GPS coordinates at the time of logging
+The App does not track or record your location continuously.
+
+3. How We Use Your Information
+
+We use collected information to:
+
+Display fuel logs, readings, and machine/tank data
+
+Calculate fuel usage and discrepancies
+
+Improve app performance
+
+Provide backup or sync features if cloud storage is enabled
+
+We do not use your information for advertising.
+
+4. Sharing of Information
+
+We do not sell, share, or disclose your personal information except in the following situations:
+
+4.1 Service Providers
+
+If the App uses cloud services (e.g., Firebase), they may process data on our behalf to:
+
+Store app data
+
+Authenticate users
+
+Provide analytics or crash reporting
+
+4.2 Legal Requirements
+
+We may disclose information if required by law or to protect the safety and rights of users.
+
+5. Data Storage & Security
+
+All stored data is protected using industry-standard encryption (HTTPS/TLS for data in transit).
+
+If cloud storage is used, the provider (e.g., Firebase/Google Cloud) encrypts data at rest.
+
+Passwords are securely hashed and never accessible to us.
+
+We take reasonable measures to protect your information, but no method of electronic storage is completely secure.
+
+6. Data Retention
+
+We retain app data for as long as:
+
+You maintain an account
+
+Your data remains in the cloud database
+
+You may request deletion of your account and associated data at any time by contacting support.
+
+If the App stores data only on-device, deleting the app will remove all stored data.
+
+7. Children’s Privacy
+
+Fuel Tracker is not intended for children under 13.
+We do not knowingly collect personal information from children.
+
+8. Your Rights
+
+Depending on your region, you may have rights to:
+
+Access your data
+
+Correct or update your data
+
+Request deletion of your data
+
+Withdraw consent
+
+To exercise these rights, contact support using the information below.
+
+9. Changes to This Policy
+
+We may update this policy from time to time.
+Changes will be posted on this page with a new “Last Updated” date.
+
+10. Contact Us
+
+If you have any questions or need support, please contact:
+
+Email: youremail@example.com
+
+App: Fuel Tracker
