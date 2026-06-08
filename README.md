@@ -34,7 +34,7 @@ Service station tanks have unlimited supply. The app logs withdrawals and tracks
 
 ## Contact
 
-For help, email [support@cfrandsen.com](mailto:support@cfrandsen.com)
+For help, email [support@cfrandsen.com](mailto:christianfrandsen6@hotmail.com)
 
 ---
 
