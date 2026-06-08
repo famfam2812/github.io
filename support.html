@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Tracker — Support</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.7;
+        }
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 20px 24px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        header .icon {
+            width: 52px;
+            height: 52px;
+            background: #ff6600;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+        }
+        header h1 { font-size: 22px; font-weight: 600; }
+        header p { font-size: 14px; color: #666; }
+        main {
+            max-width: 720px;
+            margin: 40px auto;
+            padding: 0 24px 80px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 40px 0 12px;
+            color: #1d1d1f;
+        }
+        h2:first-of-type { margin-top: 0; }
+        p { margin-bottom: 12px; color: #333; }
+        ul { padding-left: 20px; margin-bottom: 12px; color: #333; }
+        li { margin-bottom: 6px; }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+            border: 1px solid #e0e0e0;
+        }
+        .card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+        .card p { margin: 0; font-size: 15px; }
+        a { color: #ff6600; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact-box {
+            background: #fff8f3;
+            border: 1px solid #ffd0a8;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 40px;
+        }
+        .contact-box h2 { margin-top: 0; color: #ff6600; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="icon">⛽</div>
+    <div>
+        <h1>Fuel Tracker</h1>
+        <p>Support &amp; Help</p>
+    </div>
+</header>
+
+<main>
+
+    <h2>Getting Started</h2>
+    <p>Fuel Tracker is an internal tool for logging fuel usage across tanks, trailers, and service stations. Access is by invitation only — contact your administrator to get an account.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="card">
+        <h3>I can't log in</h3>
+        <p>Make sure you're using the email and password set up by your administrator. If you've forgotten your password, tap <strong>Forgot password?</strong> on the login screen and a reset link will be sent to your email.</p>
+    </div>
+
+    <div class="card">
+        <h3>A transaction I logged isn't showing up</h3>
+        <p>If your device was offline when you logged it, the transaction is saved locally and will sync automatically once you're back online. You'll see an orange banner on the dashboard while items are waiting to sync.</p>
+    </div>
+
+    <div class="card">
+        <h3>How do I attach a receipt photo?</h3>
+        <p>When logging a transaction, scroll down to <strong>Receipt Photo</strong> and tap <strong>Add receipt photo</strong>. You can take a new photo with the camera or choose an existing one from your photo library.</p>
+    </div>
+
+    <div class="card">
+        <h3>What is a meter irregularity?</h3>
+        <p>Fuel Tracker checks the meter readings you enter on each withdrawal. If readings go backwards, skip unexpectedly, or don't match the amount withdrawn, the entry is flagged as irregular. Admins can review and accept flagged entries from the dashboard.</p>
+    </div>
+
+    <div class="card">
+        <h3>How do I export transactions?</h3>
+        <p>Admins can export a CSV from <strong>Settings → Export Transactions</strong>. Filter by tank, vehicle, and date range, then tap <strong>Export as CSV</strong> to share or save the file.</p>
+    </div>
+
+    <div class="card">
+        <h3>Can I use the app without internet?</h3>
+        <p>Yes. Transactions logged without an internet connection are saved on your device and automatically uploaded to Firestore when connectivity is restored.</p>
+    </div>
+
+    <div class="card">
+        <h3>How do I add a new tank or user?</h3>
+        <p>Tank and user management is available to admins only under <strong>Settings → Manage Tanks</strong> and <strong>Settings → Manage Users</strong>.</p>
+    </div>
+
+    <div class="card">
+        <h3>The app shows a "Service Station" tank type — what's different?</h3>
+        <p>Service station tanks are treated as having unlimited supply. The app logs withdrawals and tracks usage but does not deduct from a running level or show a fill percentage.</p>
+    </div>
+
+    <h2>Privacy</h2>
+    <p>Fuel Tracker stores transaction data and user accounts in Google Firebase (Firestore). Receipt photos are stored locally on your device. The app does not sell or share your data with third parties. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+
+    <div class="contact-box">
+        <h2>Still need help?</h2>
+        <p>Email us at <a href="mailto:support@cfrandsen.com">support@cfrandsen.com</a> and we'll get back to you as soon as possible.</p>
+    </div>
+
+</main>
+
+</body>
+</html>
